@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background-image: url("Images/background.jpg");
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    resize: both;
+    width: 50%;
+    margin: auto;
+    position: fixed;
+    bottom: 6vh;
+    right: 6vw;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: black;
+    background-color: burlywood;
+    font-weight: 800;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.main {
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin: 8px 0;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    margin: 8px 0;
+    padding: 8px 10px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #3e8e41
+}
+
+input[type=button]:enabled:active, input[type=submit]:enabled:active, input[type=reset]:enabled:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+input[type=button]:disabled, input[type=submit]:disabled, input[type=reset]:disabled {
+    background: #797979;
+}
