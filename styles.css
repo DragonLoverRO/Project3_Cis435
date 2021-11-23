@@ -35,7 +35,7 @@ body {
 input[type=text] {
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 12px 20px;
+    padding: 8px 10px;
     margin: 8px 0;
 }
 
@@ -46,3 +46,26 @@ textarea {
 
     width: 100%;
 }
+
+input[type=button], input[type=submit], input[type=reset]{
+    margin: 8px 0;
+    padding: 8px 10px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #3e8e41
+}
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
