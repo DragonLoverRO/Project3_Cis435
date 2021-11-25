@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="uft-8">
 	<title>Notebook</title>
 	<link rel="stylesheet" href="styles.css">
+    <script src="call-server.js"></script>
 </head>
 <body> 
     <div class="title">
@@ -15,7 +16,10 @@
             <label for="username"></label>Username: </label>
             <input type="text" id="username" name="username"><br>
             <textarea name="note" cols="100" rows="15"></textarea><br>
-            <input type="submit" value="Submit Note">   <input type="button" onclick="" value="Load Note">    <input type="button" onclick="" value="Remove Note">  <input type="reset">
+            <input type="submit" value="Submit Note">
+            <input type="button" onclick="handle_load_button" value="Load Note">
+            <input type="button" onclick="handle_remove_button" value="Remove Note">
+            <input type="reset">
         </form>
         <p id="notice">_</p>
     </div>
